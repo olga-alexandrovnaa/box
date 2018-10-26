@@ -1,5 +1,5 @@
 #include"sum_before_and_after.h"
-#include"index_firs_zero.h"
+#include"index_first_zero.h"
 #include"index_last_zero.h"
 int sum_before_and_after(int arr[], int arr_size){
 	int index_first, index_last;

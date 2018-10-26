@@ -1,6 +1,6 @@
 #include"sum_between.h"
 #include"index_last_zero.h"
-#include"index_firs_zero.h"
+#include"index_first_zero.h"
 int sum_between(int arr[], int arr_size){
 	int sum_between = 0;
 	int index_first, index_last;
