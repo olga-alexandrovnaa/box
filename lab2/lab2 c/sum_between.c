@@ -6,7 +6,8 @@ int sum_between(int arr[], int arr_size){
 	int index_first, index_last;
 	index_first = index_first_zero(arr_size, arr);
 	index_last = index_last_zero(arr, arr_size);
-	for (int i = index_first + 1; i < index_last; i++){
+	int i;
+	for (i = index_first + 1; i < index_last; i++){
 		sum_between += abs(arr[i]);
 	}
 	if (index_first == -1)
