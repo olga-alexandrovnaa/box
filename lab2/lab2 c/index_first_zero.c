@@ -4,7 +4,7 @@ int index_first_zero(int arr_size, int arr[]){
 	int i;
 	for (i=0; i<arr_size; i++){
 		if (arr[i]==0){
-			index_first = 1;
+			index_first = i;
 			break;
 		}
 	}
